@@ -1,5 +1,5 @@
 /*!
-* Start Bootstrap - Resume v7.0.5 (https://victoralexander132.github.io/bootstrap-resume/)
+* Start Bootstrap - Victor Soto Alexander — Resume v7.0.5 (https://victoralexander132.github.io/bootstrap-resume/)
 * Copyright 2013-2026 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
