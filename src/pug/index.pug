@@ -5,10 +5,10 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Victor Soto Alexander — System Development Engineer specializing in operational tooling, automation, and AI-assisted workflows for large-scale publishing systems.')
+        meta(name='author', content='Victor Soto Alexander')
 
-        title Resume - Victor Soto
+        title Victor Soto Alexander · System Development Engineer
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -17,7 +17,7 @@ html(lang='en')
 
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap', rel='stylesheet', type='text/css')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -27,9 +27,9 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Victor Soto
+                span.d-block.d-lg-none Victor Soto Alexander
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/cv.png', alt='...')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/cv.png', alt='Victor Soto Alexander')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -43,8 +43,6 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Certifications
 
         // Page Content
@@ -54,13 +52,17 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Victor 
-                        span.text-primary Soto
+                        | Victor Soto 
+                        span.text-primary Alexander
                     .subheading.mb-5
                         | Mexico City · (+52) 55-6676-9310 ·
                         a(href='mailto:alexandervictor550@gmail.com') alexandervictor550@gmail.com
                     p.lead.mb-5
-                        | I am an experienced backend developer with expertise in Java, Spring Boot, MySQL and Microsoft Server databases. I am also skilled in using Git and have a solid understanding of front-end development, including JavaScript, CSS, HTML, and some experience with React. I am passionate about creating high-quality, scalable, and maintainable software solutions, and am always looking for new challenges to help me grow as a developer.
+                        | System Development Engineer with a software- and support-engineering background, specializing in operational tooling, automation, and diagnostics for large-scale publishing systems. I build AI-assisted workflows, automate away repetitive toil, and turn one-off fixes into version-controlled, reusable tooling that scales across a team. I work primarily in Java, Python, and Bash, and I care about reliable systems and clean, maintainable solutions.
+                    .mb-5
+                        a.btn.btn-primary(href='assets/pdf/Victor_Soto_Alexander_CV.pdf', target='_blank')
+                            i.fas.fa-download.me-2
+                            | Download CV (PDF)
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/soto-alexander/' target='_blank')
                             i.fab.fa-linkedin-in
@@ -76,30 +78,47 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
+                            h3.mb-0 System Development Engineer
+                            .subheading.mb-3 Amazon · promoted from Support Engineer III
+                            p Automation- and tooling-focused engineer on the KDP/POD publisher-support organization, building systems that reduce operational load across the team.
+                            ul
+                                li Built an AI agent/skill that automates publisher content-eligibility diagnostics, cutting resolution of tickets that previously took ~30 minutes each (~10/week) and saving the team ~20 hours per month.
+                                li Reduced manual toil by ~20 hours/month by replacing a manual financial-reporting process for publishers with scripted and AI-assisted workflows.
+                                li Migrated ~100 wiki pages to documentation-as-code (version-controlled Markdown), making SOPs reviewable in git and easily consumable by AI agents.
+                                li Authored 30+ operational runbooks and contributed to 300+, standardizing recurring-ticket resolution across the team.
+                        .flex-shrink-0
+                            span.text-primary June 2026 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Support Engineer III
+                            .subheading.mb-3 Amazon
+                            p Sustained the reliability of publisher-reporting infrastructure while building automation to shrink the team's operational burden.
+                            ul
+                                li Triaged and resolved production trouble tickets over 29 months across 4 resolver groups, maintaining 90%+ SLA compliance.
+                                li Owned on-call for the Kindle publisher-reporting backend, resolving 90%+ of pages without escalation.
+                                li Reduced repeat self-service marketing tickets by identifying documentation gaps, updating content, and assigning clear ownership for its upkeep.
+                        .flex-shrink-0
+                            span.text-primary January 2024 - June 2026
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
                             h3.mb-0 Software Engineer
                             .subheading.mb-3 Unosquare
-                            p
-                                | As a software developer at Unosquare, I collaborated with American clients to design, develop, and maintain software solutions using Java, databases, and other tools. My role involved analyzing business requirements, writing high-quality, scalable, and maintainable code, performing testing and debugging, and ensuring project timelines and quality standards were met. I also researched new technologies and industry trends, provided technical guidance and support to colleagues and clients, and contributed to the continuous improvement of development processes and best practices at Unosquare.
+                            p Built and maintained software solutions for US-based clients using Java and SQL databases in a Scrum / continuous-delivery workflow.
+                            ul
+                                li Managed database schema changes using SQL, ensuring data consistency across multiple systems.
+                                li Built and maintained API test suites for RESTful services using ReadyAPI.
                         .flex-shrink-0
-                            span.text-primary August 2022 - Present
+                            span.text-primary August 2022 - December 2023
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Junior Java Fullstack Developer
                             .subheading.mb-3 Generation Mexico
-                            p
-                                | I completed the Java Junior Fullstack Web Development program at Generation Mexico, which provided me with intensive, hands-on training in Java and fullstack web development. Through the program, I gained practical skills in areas such as developing and testing web applications using Java, Spring Boot, and other technologies, creating and managing relational databases with MySQL, and designing and implementing front-end user interfaces with HTML, CSS, and JavaScript. The program also helped me develop essential soft skills, such as teamwork, problem-solving, and communication. With the support of Generation Mexico, I was able to secure a job in the field and continue to build on my skills and experience as a web developer.
+                            p Completed an intensive, hands-on Java fullstack bootcamp — building and testing web applications with Java and Spring Boot, designing relational databases with MySQL, and implementing front-end interfaces with HTML, CSS, and JavaScript.
                         .flex-shrink-0
                             span.text-primary March 2022 - June 2022
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Geophysical Engineer
-                            .subheading.mb-3 Geoexplora
-                            p
-                                | As a data processing specialist at Geoexplora, I collaborated with geoscientists and other technical experts to ensure that data was accurately processed and analyzed, and helped develop and implement new data processing workflows and methodologies. In addition, I was responsible for creating and managing Bash scripts to automate various data processing and analysis tasks, which helped improve efficiency and accuracy. My role also involved troubleshooting technical issues and providing technical support to colleagues as needed. Through this experience, I developed strong technical skills in data processing, analysis, and management, as well as proficiency in Bash scripting and problem-solving.
-                        .flex-shrink-0
-                            span.text-primary March 2021 - March 2022
 
             hr.m-0
 
@@ -112,6 +131,7 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 National Autonomous University of Mexico (UNAM)
                             .subheading.mb-3 Bachelor of Engineering in Geophysics
+                            p Thesis: Raman Spectroscopy — removing fluorescence noise from digital signals.
                         .flex-shrink-0
                             span.text-primary August 2014 - May 2019
 
@@ -126,62 +146,47 @@ html(lang='en')
                         li.list-inline-item
                             i.fab.fa-java
                         li.list-inline-item
-                            i.fab.fa-node-js
+                            i.fab.fa-python
                         li.list-inline-item
-                            i.fab.fa-npm
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-aws
+                        li.list-inline-item
+                            i.fab.fa-docker
+                        li.list-inline-item
+                            i.fab.fa-git-alt
+                        li.list-inline-item
+                            i.fab.fa-linux
                         li.list-inline-item
                             i.fab.fa-html5
                         li.list-inline-item
                             i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-github
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-docker
-                        li.list-inline-item
-                            i.fab.fa-figma
-                        li.list-inline-item
-                            i.fab.fa-linux
-                    .subheading.mb-3 Workflow
+                    .subheading.mb-3 Workflow &amp; Focus Areas
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Java-based Backend Development
+                            | Operational tooling &amp; automation
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | RESTful API Design & Development
+                            | AI-assisted diagnostics &amp; ticket triage
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | SQL Database Design & Management
+                            | Incident response &amp; root-cause analysis
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Git Version Control & Collaboration
+                            | Documentation-as-code (version-controlled SOPs)
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Mobile-First, Responsive Design
+                            | RESTful API design &amp; SQL database management
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | In my free time, I enjoy a variety of activities outside of software development. I am an avid gamer, and enjoy both console and PC games. I also enjoy spending time outdoors, taking my dog for walks and playing fetch. Another hobby of mine is bowling, which I find to be a great way to relax and socialize.
-                    p.mb-0
-                        | Finally, I have a passion for stargazing, and often enjoy camping trips to remote locations where the skies are clear and the stars are bright.
+                            | Agile development &amp; Scrum
 
             hr.m-0
 
@@ -193,23 +198,19 @@ html(lang='en')
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | Google Data Analytics - Coursera Certification
+                            | Google Data Analytics — Coursera Certification
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | ONE Oracle Next Education - Oracle Certification
+                            | ONE Oracle Next Education — Oracle Certification
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | Remote Work Professional - Taravy Certification
+                            | Machine Learning — Stanford Online (Coursera)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | IELTS for UKVI Academic - Englis Language Proficiency
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Stanford Online Machine Learning - Coursera Certification
+                            | IELTS for UKVI Academic — English Language Proficiency
 
 
         // Bootstrap core JS

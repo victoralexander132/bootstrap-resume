@@ -4,12 +4,13 @@
 
 // Pre-state grayscale colors used in other variables
 
-$gray-800: #343a40;
+$gray-800: #2b2d42;
 
 // Override Bootstrap color system
 
-$orange: #bd5d38;
+// Modern deep indigo accent (replaces the default template orange)
+$indigo: #4c51bf;
 
 // Override Bootstrap default state colors
 
-$primary: $orange;
+$primary: $indigo;
