@@ -1,5 +1,5 @@
 {
-    "title": "Resume",
+    "title": "Victor Soto Alexander — Resume",
     "name": "startbootstrap-resume",
     "version": "7.0.5",
     "scripts": {
@@ -14,7 +14,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Personal resume/portfolio site for Victor Soto Alexander, built on Bootstrap 5.",
     "keywords": [
         "css",
         "sass",

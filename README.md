@@ -1,32 +1,36 @@
-# Victor Soto - Backend Software Engineer
-Welcome to my GitHub profile! As a backend software engineer, I specialize in building scalable, reliable, and efficient systems that power web applications and services.
+# Victor Soto Alexander — System Development Engineer
+
+Welcome to my portfolio repository. I'm a System Development Engineer specializing in operational tooling, automation, and diagnostics for large-scale publishing systems.
+
+🔗 **Live site:** [victoralexander132.github.io/bootstrap-resume](https://victoralexander132.github.io/bootstrap-resume/)
 
 ## About Me
-I have 1 year of experience in software development, with a focus on backend technologies such as Java, Springboot, Docker and SQL Databases. I am passionate about building robust and scalable systems that are optimized for performance and reliability.
+I build AI-assisted workflows, automate away repetitive operational toil, and turn one-off fixes into version-controlled, reusable tooling that scales across a team. I work primarily in Java, Python, and Bash, with a focus on reliable systems and clean, maintainable solutions.
 
-## Projects
-Here are some of the projects I've worked on recently:
-
-[Zintra](https://github.com/victoralexander132/Zintra): Ecommerce Frontend with HTML5, CSS3 and vanilla Javascript
-
-[Zintra](https://github.com/victoralexander132/Zintra-api): Backend with Java, Springboot and JWT security
 ## Skills
-Here are some of the skills and technologies that I have expertise in:
-
-- Java 8
-- Springboot
-- Docker
-- Ansible
-- Git
+- Java
 - Python
-- Bash Scripting
-- SQL Databases
-- React
+- Bash scripting
+- SQL databases
+- AWS & CloudWatch
+- Docker
+- Git
+- Operational tooling & automation
+- AI-assisted diagnostics & ticket triage
+- Documentation-as-code
 
 ## Contact Me
-If you're interested in working together or have any questions, please feel free to contact me via email or connect with me on [LinkedIn](https://www.linkedin.com/in/soto-alexander/).
+Feel free to reach out via email or connect with me on [LinkedIn](https://www.linkedin.com/in/soto-alexander/).
 
-Thanks for visiting my profile!
+---
 
-This project was initially forked from [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume) and has been modified to include my data.
+This project was initially forked from [startbootstrap-resume](https://github.com/StartBootstrap/startbootstrap-resume) and modified to include my own content.
 
+## Development
+
+```bash
+npm install      # install dependencies
+npm start        # build + serve locally with live-reload (http://localhost:3001)
+npm run build    # build the static site into dist/
+npm run deploy   # build and publish dist/ to the gh-pages branch
+```
