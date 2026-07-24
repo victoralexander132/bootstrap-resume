@@ -58,7 +58,7 @@ html(lang='en')
                         | Mexico City · (+52) 55-6676-9310 ·
                         a(href='mailto:alexandervictor550@gmail.com') alexandervictor550@gmail.com
                     p.lead.mb-5
-                        | System Development Engineer with a software- and support-engineering background, specializing in operational tooling, automation, and diagnostics for large-scale publishing systems. I build AI-assisted workflows, automate away repetitive toil, and turn one-off fixes into version-controlled, reusable tooling that scales across a team. I work primarily in Java, Python, and Bash, and I care about reliable systems and clean, maintainable solutions.
+                        | System Development Engineer focused on backend automation and operational tooling for large-scale publishing systems on AWS — building AI-assisted workflows and self-serve diagnostics in Java and Python that eliminate manual effort and reduce incident load. Hands-on with core AWS services (S3, DynamoDB, Lambda, CloudWatch, Athena) and an AWS Certified Cloud Practitioner. Quantitative engineering background (geophysics / signal processing) with strong fundamentals in data, noisy systems, and building reliable, maintainable solutions.
                     .mb-5
                         a.btn.btn-primary(href='assets/pdf/Victor_Soto_Alexander_CV.pdf', target='_blank')
                             i.fas.fa-download.me-2
@@ -82,10 +82,10 @@ html(lang='en')
                             .subheading.mb-3 Amazon · promoted from Support Engineer III
                             p Automation- and tooling-focused engineer on the KDP/POD publisher-support organization, building systems that reduce operational load across the team.
                             ul
-                                li Built an AI agent/skill that automates publisher content-eligibility diagnostics, cutting resolution of tickets that previously took ~30 minutes each (~10/week) and saving the team ~20 hours per month.
-                                li Reduced manual toil by ~20 hours/month by replacing a manual financial-reporting process for publishers with scripted and AI-assisted workflows.
-                                li Migrated ~100 wiki pages to documentation-as-code (version-controlled Markdown), making SOPs reviewable in git and easily consumable by AI agents.
-                                li Authored 30+ operational runbooks and contributed to 300+, standardizing recurring-ticket resolution across the team.
+                                li Built an autonomous AI agent that scans publisher content-eligibility tickets daily and resolves them without supervision, auto-resolving ~90% and cutting handling time from 30–90 minutes of manual triage to 5–10 minutes of review.
+                                li Automated a manual financial-reporting process covering hundreds of thousands of publishers and records across Amazon's global publishing pipeline, saving ~20 engineer-hours per month via scripted and AI-assisted workflows.
+                                li Codified resolution logic for ~10 recurring failure modes into self-serve automation, cutting missed SLAs by 60% and reducing manual escalations.
+                                li Designed a Git-backed documentation-as-code pipeline that made SOPs peer-reviewable and directly consumable by AI agents.
                         .flex-shrink-0
                             span.text-primary June 2026 - Present
 
@@ -95,9 +95,9 @@ html(lang='en')
                             .subheading.mb-3 Amazon
                             p Sustained the reliability of publisher-reporting infrastructure while building automation to shrink the team's operational burden.
                             ul
-                                li Triaged and resolved production trouble tickets over 29 months across 4 resolver groups, maintaining 90%+ SLA compliance.
+                                li Resolved ~1,400 production trouble tickets over 29 months across 4 resolver groups, maintaining 90%+ SLA compliance.
                                 li Owned on-call for the Kindle publisher-reporting backend, resolving 90%+ of pages without escalation.
-                                li Reduced repeat self-service marketing tickets by identifying documentation gaps, updating content, and assigning clear ownership for its upkeep.
+                                li Cut repeat self-service marketing tickets ~60% (and recurring tickets ~40% overall) by closing documentation gaps and assigning explicit content ownership.
                         .flex-shrink-0
                             span.text-primary January 2024 - June 2026
 
@@ -111,6 +111,14 @@ html(lang='en')
                                 li Built and maintained API test suites for RESTful services using ReadyAPI.
                         .flex-shrink-0
                             span.text-primary August 2022 - December 2023
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Geophysical Engineer
+                            .subheading.mb-3 Geoexplora
+                            p Automated seismic data-processing workflows with Bash scripting, improving turnaround and accuracy on large datasets.
+                        .flex-shrink-0
+                            span.text-primary August 2019 - February 2022
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -141,52 +149,46 @@ html(lang='en')
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-3 Languages & Cloud
                     ul.list-inline.dev-icons
                         li.list-inline-item
                             i.fab.fa-java
                         li.list-inline-item
                             i.fab.fa-python
                         li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
                             i.fab.fa-aws
                         li.list-inline-item
-                            i.fab.fa-docker
+                            i.fab.fa-js-square
                         li.list-inline-item
                             i.fab.fa-git-alt
                         li.list-inline-item
                             i.fab.fa-linux
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                    .subheading.mb-3 Workflow &amp; Focus Areas
+                    .subheading.mb-3 Core Skills
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Operational tooling &amp; automation
+                            | AWS — S3, DynamoDB, Lambda, CloudWatch, Athena
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | AI-assisted diagnostics &amp; ticket triage
+                            | Backend: REST API design, relational schema design &amp; migrations
                         li
                             span.fa-li
                                 i.fas.fa-check
-                            | Incident response &amp; root-cause analysis
+                            | Automation, scripting &amp; log/metrics-based diagnostics
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | AI-assisted operational tooling
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Incident triage &amp; on-call
                         li
                             span.fa-li
                                 i.fas.fa-check
                             | Documentation-as-code (version-controlled SOPs)
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | RESTful API design &amp; SQL database management
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile development &amp; Scrum
 
             hr.m-0
 
@@ -198,11 +200,7 @@ html(lang='en')
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | Google Data Analytics — Coursera Certification
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | ONE Oracle Next Education — Oracle Certification
+                            | AWS Certified Cloud Practitioner — Amazon Web Services
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
@@ -210,7 +208,7 @@ html(lang='en')
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
-                            | IELTS for UKVI Academic — English Language Proficiency
+                            | Google Data Analytics — Coursera
 
 
         // Bootstrap core JS
